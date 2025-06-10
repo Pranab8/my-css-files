@@ -1,0 +1,104 @@
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .exam-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 960px;
+    gap: 20px;
+  }
+
+  .exam-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .exam-card:hover {
+    transform: scale(1.05);
+  }
+
+  .exam-card h3 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+  }
+
+  .exam-card p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    margin-top: 40px;
+    color: #333;
+  }
+
+  @media (max-width: 600px) {
+    .exam-card {
+      width: 90%;
+    }
+  }
+
+----------------------------------------------
+.mock-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.mock-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.mock-card:hover {
+  transform: scale(1.01);
+}
+.mock-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+.mock-card p {
+  color: #555;
+}
+.mock-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #2980b9;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.mock-card a:hover {
+  background: #1f6692;
+}
+
+
