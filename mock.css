@@ -65,6 +65,7 @@
   }
 
 ----------------------------------------------
+
 .mock-container {
   display: flex;
   flex-direction: column;
@@ -97,5 +98,10 @@
 .mock-card a:hover {
   background: #1f6692;
 }
-
-
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    margin-top: 40px;
+    color: #333;
+  }
