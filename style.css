@@ -17,6 +17,35 @@
         display: block;
         padding: 5px 10px;
          }
+.option-correct {
+  background-color: green;
+  color: white;
+}
+.option-wrong {
+  background-color: red;
+  color: white;
+}
+button.active {
+  background: #007bff;
+  color: white;
+}
+button.acc {
+  margin-top: 10px;
+}
+.pnl {
+  display: none;
+}
+#score-board {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 999;
+}
 
      .acc {
        background-color: #28a745;
